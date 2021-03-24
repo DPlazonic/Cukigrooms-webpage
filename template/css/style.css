@@ -70,7 +70,54 @@ header.logo{
      position: relative;
      max-width: 80px;
 }
-
+header ul{
+     position: relative;
+     display: flex;
+}
+header ul li{
+     list-style: none;
+}
+header ul li a{
+     display: inline-block;
+     color:#333;
+     font-weight: 400;
+     margin-left: 40px;
+     text-decoration: none;
+}
+.content{
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.content.texBox{
+     position: relative;
+     max-width: 600px;
+}
+.content.texBox h1{
+     color: #333;
+     font-size: 4rem;
+     line-height: 1.4rem;
+     font-weight: 500;
+}
+.content.texBox p{
+     color: #333;
+}
+.content.texBox a{
+     display: inline-block;
+     margin-top: 20px;
+     padding: 8px 20px;
+     background: #017143;
+     color: #fff;
+     border-radius: 40px;
+     font-weight: 500;
+     letter-spacing: 1px; 
+     text-decoration: none;
+}
+.content.imgBox{
+     
+}
 @media screen and (max-width:600px){
      section,.bottomBig{
           width:100%
