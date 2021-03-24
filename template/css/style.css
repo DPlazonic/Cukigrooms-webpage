@@ -68,7 +68,7 @@ header{
 }
 header.logo{
      position: relative;
-     max
+     max-width: 80px;
 }
 
 @media screen and (max-width:600px){
